@@ -2,7 +2,7 @@ name: Test
 on: [push]
 jobs:
   on_build_actions:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
