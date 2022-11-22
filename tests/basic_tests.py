@@ -28,7 +28,7 @@ class TestCSVPrinter(unittest.TestCase):
             print(e)
 
 
-a = TestCSVPrinter()
+#a = TestCSVPrinter()
 # a.test_read1()
 # a.test_read2()
 # a.test_read3()
