@@ -17,7 +17,7 @@ class TestCSVPrinter(unittest.TestCase):
     def test_read2(self):
         printer = CSVPrinter("tests/test.csv")
         line = printer.read()
-        self.assertEqual("value2B", line[1][2])
+        self.assertEqual("value2B", line[1][1])
 
     def test_read3(self):
         try:
